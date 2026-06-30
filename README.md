@@ -39,6 +39,7 @@ When any risk behavior is detected, the system triggers a physical buzzer connec
 ---
 
 ## How It Works
+
 Webcam Feed
 │
 ▼
