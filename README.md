@@ -253,7 +253,7 @@ When any of the four detections is active, Python sends a '1' signal over serial
 
 Built as part of a personal AI/Computer Vision project — combining facial landmark analysis, object detection, and embedded hardware integration.
 
- - Deepak Rajesh
+  -Deepak Rajesh
 
 ## License
 
