@@ -1,4 +1,4 @@
-# Driver Drowsiness Detection System
+# Safedrive Vision
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-CV-orange?style=for-the-badge&logo=opencv)
