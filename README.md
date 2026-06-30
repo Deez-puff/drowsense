@@ -1,4 +1,4 @@
-# 🚗 Driver Drowsiness Detection System
+# Driver Drowsiness Detection System
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-CV-orange?style=for-the-badge&logo=opencv)
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 - [About the Project](#about-the-project)
 - [How It Works](#how-it-works)
 - [Key Features](#key-features)
@@ -25,7 +25,7 @@
 
 ---
 
-## 🧠 About the Project
+## About the Project
 
 Driver fatigue and distraction are among the leading causes of road accidents worldwide. This project builds a real-time monitoring system that watches the driver through a webcam and detects four major risk behaviors:
 
@@ -38,7 +38,7 @@ When any risk behavior is detected, the system triggers a physical buzzer connec
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 Webcam Feed
 │
 ▼
@@ -81,7 +81,7 @@ Detected      Detected      Detected            Detected
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 | Feature | Description |
 |---|---|
@@ -96,7 +96,7 @@ Detected      Detected      Detected            Detected
 
 ---
 
-## 🔌 Hardware Setup
+## Hardware Setup
 
 ### Components Required
 - Arduino Uno (or compatible board)
@@ -141,11 +141,11 @@ After uploading, note the COM port assigned to your Arduino (visible in Arduino 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 driver-drowsiness-detection/
 │
 ├── src/                              ← Core detection modules
-│   ├── init.py
+│  
 │   ├── eye_detector.py               ← EAR calculation, drowsiness tracking
 │   ├── yawn_detector.py              ← MAR calculation, yawn tracking
 │   ├── distraction_detector.py       ← Head pose estimation, distraction tracking
@@ -159,7 +159,7 @@ driver-drowsiness-detection/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Tools Used |
 |---|---|
@@ -173,7 +173,7 @@ driver-drowsiness-detection/
 
 ---
 
-## 📦 Setup and Installation
+## Setup and Installation
 
 ### 1 — Clone the Repository
 git clone https://github.com/Deez-puff/driver-drowsiness-detection.git
@@ -199,7 +199,7 @@ arduino_alert = ArduinoAlert(port='COM7', baud_rate=9600)
 
 ---
 
-## ▶️ How to Run
+## How to Run
 venv311\Scripts\activate
 python main.py
 
@@ -207,7 +207,7 @@ A window will open showing your live webcam feed with detection overlays. Press 
 
 ---
 
-## 📐 Detection Methods Explained
+## Detection Methods Explained
 
 ### Eye Aspect Ratio (EAR) — Drowsiness Detection
 EAR measures the ratio between vertical and horizontal eye landmark distances. When eyes close, the vertical distance shrinks while horizontal stays constant, causing EAR to drop. If EAR stays below 0.21 for 20 consecutive frames, drowsiness is flagged.
@@ -226,7 +226,7 @@ When any of the four detections is active, Python sends a '1' signal over serial
 
 ---
 
-## 🔧 Challenges and Solutions
+## Challenges and Solutions
 
 | Challenge | Solution |
 |---|---|
@@ -237,7 +237,7 @@ When any of the four detections is active, Python sends a '1' signal over serial
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - [ ] Add data logging to record alert history with timestamps
 - [ ] Add a seatbelt detection module
@@ -249,12 +249,12 @@ When any of the four detections is active, Python sends a '1' signal over serial
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Built as part of a personal AI/Computer Vision project — combining facial landmark analysis, object detection, and embedded hardware integration.
 
 - Deepak Rajesh
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
