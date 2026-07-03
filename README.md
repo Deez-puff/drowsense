@@ -9,7 +9,6 @@
 > A real-time computer vision system that detects driver drowsiness, yawning, distraction, and phone usage using webcam input, then triggers a physical buzzer alert through Arduino.
 
 ---
-
 ## Table of Contents
 - [About the Project](#about-the-project)
 - [How It Works](#how-it-works)
