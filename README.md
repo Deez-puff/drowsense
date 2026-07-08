@@ -5,7 +5,7 @@
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-FaceMesh-green?style=for-the-badge)
 ![YOLO](https://img.shields.io/badge/YOLOv8-ObjectDetection-red?style=for-the-badge)
 ![Arduino](https://img.shields.io/badge/Arduino-Hardware-teal?style=for-the-badge&logo=arduino)
-
+ 
 > A real-time computer vision system that detects driver drowsiness, yawning, distraction, and phone usage using webcam input, then triggers a physical buzzer alert through Arduino.
 
 --- 
